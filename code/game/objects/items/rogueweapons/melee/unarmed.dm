@@ -226,7 +226,7 @@
 	desc = "A pair of heavily curved claws, styled after beasts of the wilds for rending bare flesh, \
 			A show of the continual worship and veneration of beasts of strength in Gronn."
 	icon_state = "ironclaws"
-	icon = 'icons/roguetown/weapons/unarmed32.dmi'
+	icon = 'icons/roguetown/weapons/32.dmi'
 	wdefense = 5
 	force = 30
 	possible_item_intents = list(/datum/intent/claw/cut/iron, /datum/intent/claw/lunge/iron, /datum/intent/claw/rend)
@@ -253,7 +253,7 @@
 	desc = "A pair of steel claws, An uncommon sight in Gronn as they do not forge their own steel, \
 			Their longer blades offer a superior defence option but their added weight slows them down."
 	icon_state = "steelclaws"
-	icon = 'icons/roguetown/weapons/unarmed32.dmi'
+	icon = 'icons/roguetown/weapons/32.dmi'
 	wdefense = 6
 	force = 35
 	possible_item_intents = list(/datum/intent/claw/cut/steel, /datum/intent/claw/lunge/steel, /datum/intent/claw/rend/steel)
@@ -269,7 +269,7 @@
 			Their unique design aids them in slipping between the plates in armor and their light weight supports rapid aggressive slashes. \
 			'To see the claws of the four, Is to see the true danger of the north. Not man, Not land but beast. We are all prey in their eyes.'"
 	icon_state = "gronnclaws"
-	icon = 'icons/roguetown/weapons/unarmed32.dmi'
+	icon = 'icons/roguetown/weapons/32.dmi'
 	wdefense = 3
 	force = 25
 	possible_item_intents = list(/datum/intent/claw/cut/gronn, /datum/intent/claw/lunge/gronn, /datum/intent/claw/rend)
