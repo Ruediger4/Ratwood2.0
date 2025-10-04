@@ -63,7 +63,7 @@
 
 /obj/item/rogueweapon/katar
 	slot_flags = ITEM_SLOT_HIP
-	force = 24
+	force = 18
 	possible_item_intents = list(/datum/intent/katar/cut, /datum/intent/katar/thrust, /datum/intent/sword/peel)
 	name = "katar"
 	desc = "A blade that sits above the users fist. Commonly used by those proficient at unarmed fighting"
@@ -101,7 +101,7 @@
 	name = "barotrauma"
 	desc = "A gift from a creature of the sea. The claw is sharpened to a wicked edge."
 	icon_state = "abyssorclaw"
-	force = 27	//Its thrust will be able to pen 80 stab armor if the wielder has 17 STR. (With softcap)
+	force = 21	//Its thrust will be able to pen 80 stab armor if the wielder has 17 STR. (With softcap)
 	max_integrity = 120
 
 /obj/item/rogueweapon/katar/psydon
@@ -118,7 +118,7 @@
 	desc = "A weapon that combines the ergonomics of the Ranesheni katar with the capabilities of the Western Psydonian \"knight-killers\". It can be tied around the wrist."
 	slot_flags = ITEM_SLOT_WRISTS
 	max_integrity = 120
-	force = 20
+	force = 15
 	throwforce = 8
 	thrown_bclass = BCLASS_STAB
 	possible_item_intents = list(/datum/intent/dagger/thrust, /datum/intent/dagger/thrust/pick)
@@ -134,7 +134,7 @@
 /obj/item/rogueweapon/knuckles
 	name = "steel knuckles"
 	desc = "A mean looking pair of steel knuckles."
-	force = 25
+	force = 22
 	possible_item_intents = list(/datum/intent/knuckles/strike, /datum/intent/knuckles/smash, /datum/intent/effect/daze/unarmed)
 	icon = 'icons/roguetown/weapons/32.dmi'
 	icon_state = "steelknuckle"
@@ -168,7 +168,7 @@
 	name = "bronze knuckles"
 	desc = "A mean looking pair of bronze knuckles. Mildly heavier than it's steel counterpart."
 	icon_state = "bronzeknuckle"
-	force = 22
+	force = 18
 	max_integrity = 200
 	wdefense = 6	//Meant to be used with bracers. Temp for now.
 	smeltresult = /obj/item/ingot/bronze
@@ -177,7 +177,7 @@
 	name = "decrepit knuckles"
 	desc = "a set of knuckles made of ancient metals, Aeon's grasp wither their form."
 	icon_state = "aknuckle"
-	force = 14
+	force = 12
 	max_integrity = 100
 	smeltresult = /obj/item/ingot/aalloy
 	blade_dulling = DULLING_SHAFT_CONJURED
@@ -191,7 +191,7 @@
 /obj/item/rogueweapon/knuckles/eora
 	name = "close caress"
 	desc = "Some times call for a more intimate approach."
-	force = 27
+	force = 25
 	icon_state = "eoraknuckle"
 
 /obj/item/rogueweapon/knuckles/psydon
