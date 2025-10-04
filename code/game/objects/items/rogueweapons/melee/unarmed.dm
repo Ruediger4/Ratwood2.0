@@ -222,9 +222,9 @@
 
 /obj/item/rogueweapon/handclaw
 	slot_flags = ITEM_SLOT_HIP
-	name = "iron Hound Claws"
-	desc = "A pair of heavily curved claws, styled after beasts of the wilds for rending bare flesh, \
-			A show of the continual worship and veneration of beasts of strength in Gronn."
+	name = "iron hound claws"
+	desc = "A pair of heavily curved claws, styled after beasts of the wilds for disarming and annihilating foes, \
+			a show of the continual worship and veneration of beasts of strength in Gronn."
 	icon_state = "ironclaws"
 	icon = 'icons/roguetown/weapons/32.dmi'
 	wdefense = 0
@@ -251,7 +251,7 @@
 /obj/item/rogueweapon/handclaw/steel
 	name = "steel Mantis Claws"
 	desc = "A pair of steel claws, An uncommon sight in Gronn as they do not forge their own steel, \
-			Their longer blades offer superior offense. Tear them apart."
+			their longer blades offer superior offense. Leave them defenseless, then tear them apart."
 	icon_state = "steelclaws"
 	icon = 'icons/roguetown/weapons/32.dmi'
 	wdefense = 0
@@ -264,9 +264,9 @@
 
 /obj/item/rogueweapon/handclaw/gronn
 	name = "Gronn Beast Claws"
-	desc = "A pair of uniquely reinforced iron claws forged with the addition of bone by the Iskarn shamans of the Northern Empty. \
-			Their unique design aids them in slipping between the plates in armor and their light weight supports rapid aggressive slashes. \
-			'To see the claws of the four, Is to see the true danger of the north. Not man, Not land but beast. We are all prey in their eyes.'"
+	desc = "A pair of uniquely reinforced iron claws forged with the addition of bone by the Iskarn shamans of the Northern Gronnian Highlands. \
+			Their unique design aids them in slipping between leather and maille with ease, and their light weight supports rapid aggressive slashes. \
+			'To see the claws of the Four, is to see the true danger of the North. Not man, Not land, but beast. We are all prey in their eyes.'"
 	icon_state = "gronnclaws"
 	icon = 'icons/roguetown/weapons/32.dmi'
 	wdefense = 0
