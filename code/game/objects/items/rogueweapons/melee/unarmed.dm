@@ -253,12 +253,9 @@
 	desc = "A pair of steel claws, An uncommon sight in Gronn as they do not forge their own steel, \
 			their longer blades offer superior offense. Leave them defenseless, then tear them apart."
 	icon_state = "steelclaws"
-	icon = 'icons/roguetown/weapons/32.dmi'
-	wdefense = 0
 	force = 20 //2 more dmg because steel
 	possible_item_intents = list(/datum/intent/claw/cut/steel, /datum/intent/claw/disarm)
 	max_blade_int = 220 //10% more blade integrity . Wow!
-	max_integrity = 120
 	smeltresult = /obj/item/ingot/steel
 	sharpness_mod = 2
 
@@ -269,12 +266,10 @@
 			'To see the claws of the Four, is to see the true danger of the North. Not man, Not land, but beast. We are all prey in their eyes.'"
 	icon_state = "gronnclaws"
 	icon = 'icons/roguetown/weapons/32.dmi'
-	wdefense = 0
 	force = 22 //+4dmg compared to iron + swift balance
 	possible_item_intents = list(/datum/intent/claw/cut/gronn, /datum/intent/claw/disarm)
 	wbalance = WBALANCE_SWIFT
 	max_blade_int = 220
-	max_integrity = 120
 
 
 /obj/item/rogueweapon/handclaw/getonmobprop(tag)
