@@ -125,3 +125,11 @@
 	"...your arm tires from the toils of practice. Swinging rapidly has left your arm numb. With weary eyes, you glance aside to witness a hunter practice their craft with a brief overhand toss. Absorbing the technique, you mimic it, and effortlessly cast a powerful stone square onto the target..."
 	)
 	expert_name = "Slinger"
+
+/datum/skill/combat/firearms
+	name = "Firearms"
+	dreams = list(
+		"...the one-eyed Elf speaks to you in awful, gruesome detail about it: a device capable of sending something smaller than an arrow with such a motion it annihilates anything it meets. At times, he stares into the distance, lost in thought...",
+		"...arrows and stones whizz past your head. The barbarian approaches at full-sprint, screaming his lungs out. You raise your arm, and squeeze the trigger, praying the boomstick finds its mark. A deafening thunder shakes your entire existence, and the man falls like a puppet without strings.",
+		"...you remember the mantra that your Sergeant taught you: a dash of gunpowder, followed by a ball the size of a zenny. Jam the rod down the barrel ten times - then only aim at that which you wish to see no more."
+	)
