@@ -303,6 +303,7 @@
 	item_state = "arquebus"
 	grid_height = 64
 	grid_width = 96
+	sellprice = 120	//it IS rare.
 
 /obj/item/gun/ballistic/firearm/arquebus_pistol
 	name = "arquebus pistol"
@@ -322,6 +323,7 @@
 	cartridge_wording = "lead ball"
 	grid_height = 32
 	grid_width = 96
+	sellprice = 140 //it IS rare.
 
 /obj/item/gun/ballistic/firearm/arquebus_pistol/getonmobprop(tag)
 	. = ..()
@@ -338,6 +340,7 @@
 	icon = 'icons/roguetown/weapons/guns.dmi'
 	icon_state = "handgonne"
 	item_state = "handgonne"
+	sellprice = 60	//it IS-- okay.
 
 /obj/item/gun/ballistic/firearm/handgonne/process_fire(atom/target, mob/living/user, message = TRUE, params = null, zone_override = "", bonus_spread = 0)
 	var/accident_chance = 0
@@ -404,6 +407,7 @@
 	icon_state = "flintgonne"
 	item_state = "flintgonne"
 	gripped_intents = list(/datum/intent/shoot/firearm/flintgonne, /datum/intent/arc/firearm/flintgonne, INTENT_GENERIC)
+	sellprice = 70 //you get it by now.
 
 /datum/intent/shoot/firearm/flintgonne/get_chargetime()
 	if(mastermob && chargetime)
@@ -443,6 +447,7 @@
 	gripsprite = FALSE
 	mag_type = /obj/item/ammo_box/magazine/internal/firearm/blunderbuss
 	cartridge_wording = "grapeshot"
+	sellprice = 70 //Why would you sell this?
 
 /obj/item/gun/ballistic/firearm/blunderbuss/getonmobprop(tag)
 	. = ..()
