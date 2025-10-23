@@ -192,7 +192,6 @@
 				user.visible_message("<span class='notice'>[user] fills the [src] with gunpowder.</span>")
 				gunpowder = TRUE
 			return
-		user.stop_sound_channel(gunchannel)
 	if(istype(A, /obj/item/ramrod))
 		var/obj/item/ramrod/R=A
 		if(!reloaded)
