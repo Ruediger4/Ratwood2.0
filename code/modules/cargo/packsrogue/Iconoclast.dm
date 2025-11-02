@@ -133,27 +133,32 @@
 	cost = 20
 	contains = list(/obj/item/rogueweapon/knuckles)
 
-/datum/supply_pack/rogue/Iconoclast/mace
+/datum/supply_pack/rogue/Iconoclast/steelflail
+	name = "Steel Flail"
+	cost = 20
+	contains =  list(/obj/item/rogueweapon/flail/sflail)
+
+///datum/supply_pack/rogue/Iconoclast/mace
 	name = "Iron Mace"
 	cost = 10
 	contains = list(/obj/item/rogueweapon/mace)
 
-/datum/supply_pack/rogue/Iconoclast/steelmace
+///datum/supply_pack/rogue/Iconoclast/steelmace
 	name = "Steel Mace"
 	cost = 20
 	contains = list(/obj/item/rogueweapon/mace/steel)
 
-/datum/supply_pack/rogue/Iconoclast/cudgel
+///datum/supply_pack/rogue/Iconoclast/cudgel
 	name = "Cudgel"
 	cost = 20
 	contains = list(/obj/item/rogueweapon/mace/cudgel)
 
-/datum/supply_pack/rogue/Iconoclast/billhook
+///datum/supply_pack/rogue/Iconoclast/billhook
 	name = "Billhook"
 	cost = 10
 	contains = list(/obj/item/rogueweapon/spear/billhook)
 
-/datum/supply_pack/rogue/Iconoclast/halberd
+///datum/supply_pack/rogue/Iconoclast/halberd
 	name = "Halberd"
 	cost = 10
 	contains = list(/obj/item/rogueweapon/halberd)
@@ -162,12 +167,12 @@
 // SHIELDS //
 /////////////
 
-/datum/supply_pack/rogue/Iconoclast/Tshield
+///datum/supply_pack/rogue/Iconoclast/Tshield
 	name = "Tower Shield"
 	cost = 10
 	contains = list(/obj/item/rogueweapon/shield/tower)
 
-/datum/supply_pack/rogue/Iconoclast/kiteshield
+///datum/supply_pack/rogue/Iconoclast/kiteshield
 	name = "Kite Shield"
 	cost = 20
 	contains = list(/obj/item/rogueweapon/shield/tower/metal)
