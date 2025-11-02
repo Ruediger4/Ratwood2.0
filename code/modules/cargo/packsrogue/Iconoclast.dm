@@ -166,13 +166,13 @@
 /////////////
 // SHIELDS //
 /////////////
-
-///datum/supply_pack/rogue/Iconoclast/Tshield
-	name = "Tower Shield"
+//shields stay but if you misbehave i'm taking them away, kitten. I already took you down to apprentice
+/datum/supply_pack/rogue/Iconoclast/Tshield
+	name = "Tower Shield"	
 	cost = 10
 	contains = list(/obj/item/rogueweapon/shield/tower)
 
-///datum/supply_pack/rogue/Iconoclast/kiteshield
+/datum/supply_pack/rogue/Iconoclast/kiteshield
 	name = "Kite Shield"
 	cost = 20
 	contains = list(/obj/item/rogueweapon/shield/tower/metal)
