@@ -26,7 +26,7 @@
 		to_chat(H, span_warning("Matthios embraces me.. I must uphold his creed. I am his light in the darkness."))
 		H.set_patron(/datum/patron/inhumen/matthios)
 	//H.adjust_skillrank(/datum/skill/combat/maces, 3, TRUE)	//we comment these out to try out if they're more balanced this way.
-	//H.adjust_skillrank(/datum/skill/combat/shields, 3, TRUE)	//ditto. Kite shield + katar or knuckles and a tier 4 spellcaster is, unsurprisingly, really good!
+	H.adjust_skillrank(/datum/skill/combat/shields, 2, TRUE)	//ditto. Kite shield + katar or knuckles and a tier 4 spellcaster is, unsurprisingly, really good! Nerfed to apprentice
 	H.adjust_skillrank(/datum/skill/magic/holy, 4, TRUE)
 	H.adjust_skillrank(/datum/skill/combat/whipsflails, 4, TRUE) // Whips/Flails so we can use the Gilded Flail if we want.
 	//H.adjust_skillrank(/datum/skill/combat/polearms, 3, TRUE) // Poles or maces if we're a wimp and don't want to engage with unarmed. Not ideal. Further funneling them into whips/flails or unarmed so commented out
