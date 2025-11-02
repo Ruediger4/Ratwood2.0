@@ -138,30 +138,30 @@
 	cost = 20
 	contains =  list(/obj/item/rogueweapon/flail/sflail)
 
-///datum/supply_pack/rogue/Iconoclast/mace
-	name = "Iron Mace"
-	cost = 10
-	contains = list(/obj/item/rogueweapon/mace)
+//datum/supply_pack/rogue/Iconoclast/mace
+	//name = "Iron Mace"
+	//cost = 10
+	//contains = list(/obj/item/rogueweapon/mace)
 
-///datum/supply_pack/rogue/Iconoclast/steelmace
-	name = "Steel Mace"
-	cost = 20
-	contains = list(/obj/item/rogueweapon/mace/steel)
+//datum/supply_pack/rogue/Iconoclast/steelmace
+	//name = "Steel Mace"
+	//cost = 20
+	//contains = list(/obj/item/rogueweapon/mace/steel)
 
 ///datum/supply_pack/rogue/Iconoclast/cudgel
-	name = "Cudgel"
-	cost = 20
-	contains = list(/obj/item/rogueweapon/mace/cudgel)
+	//name = "Cudgel"
+	//cost = 20
+	//contains = list(/obj/item/rogueweapon/mace/cudgel)
 
-///datum/supply_pack/rogue/Iconoclast/billhook
-	name = "Billhook"
-	cost = 10
-	contains = list(/obj/item/rogueweapon/spear/billhook)
+//datum/supply_pack/rogue/Iconoclast/billhook
+	//name = "Billhook"
+	//cost = 10
+	//contains = list(/obj/item/rogueweapon/spear/billhook)
 
-///datum/supply_pack/rogue/Iconoclast/halberd
-	name = "Halberd"
-	cost = 10
-	contains = list(/obj/item/rogueweapon/halberd)
+//datum/supply_pack/rogue/Iconoclast/halberd
+	//name = "Halberd"
+	//cost = 10
+	//contains = list(/obj/item/rogueweapon/halberd)
 
 /////////////
 // SHIELDS //
